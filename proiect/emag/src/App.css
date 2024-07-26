@@ -41,6 +41,7 @@ li a{
   margin: 10px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .header img {
   height: 50px;
@@ -49,4 +50,8 @@ li a{
 
 .header input {
   font-family: 'Comic Sans MS', cursive;
+  border-style: solid;
+  width: 600px;
+  border-radius: 40%;
+  border-color: #0082E6;
 }
