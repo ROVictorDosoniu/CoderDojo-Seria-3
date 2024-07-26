@@ -47,7 +47,7 @@ function App() {
 
     <header>
         <nav>
-          <NavList />
+          <NavList/>
           <div id="help">
             <a id="Help" href="#help">Help</a>
           </div>
