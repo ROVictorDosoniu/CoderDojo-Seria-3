@@ -72,6 +72,8 @@ li a{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;  
+
+  margin-top: 3vh;
 }
 
 .pozaJos{
