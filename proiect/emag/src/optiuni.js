@@ -4,46 +4,46 @@ export const chesti=[
     text:"Laptop, Tablete & Telefoane"
 },
     {
-    imagine: ,
+    imagine:mouse.png,
     text:" PC, Periferice & Software"
 },
 {
-    imagine: ,
+    imagine:tv.png ,
     text:" TV, Audio-Video & Foto"
 },
 {
-    imagine: ,
+    imagine:wash.png ,
     text:" Electrocasnice & Climatizare"
 },{
-    imagine: ,
+    imagine:ps4.png,
     text:"Gaming, Carti & Birotica"
 },
 {
-    imagine: ,
+    imagine:bag.png ,
     text:" Bacanie"
 },
 {
-    imagine: ,
+    imagine:tricou.png ,
     text:"Fashion"
 },
 {
-    imagine: ,
+    imagine:mirror.png ,
     text:"Ingrijire personala & Cosmetice"
 },
 {
-    imagine: ,
+    imagine: canapea.png,
     text:"Casa, Gradina & Bricolaj"
 },
 {
-    imagine: ,
+    imagine:ping.png ,
     text:"Sport & Travel"
 },
 {
-    imagine: ,
+    imagine:ca.png ,
     text:"Auto, Moto & RCA"
 },
 {
-    imagine: ,
+    imagine: bear.png,
     text:"Jucarii, Copii & Bebe"
 },
-]
+];
