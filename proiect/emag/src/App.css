@@ -55,3 +55,22 @@ li a{
   border-radius: 10rem;
   border-color: #0082E6;
 }
+
+#inaltime{
+  height: 10vh;}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  background-color: beige;
+  gap:5px;
+  height: 10vh;
+}
+
+.Jos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}

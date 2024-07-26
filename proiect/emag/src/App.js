@@ -50,19 +50,7 @@ function App() {
           </div>
         </nav>
       </header>
-
-     
-
-
-
-      <div className="Jos">
-        <Poze />
-      </div>
-    </div>
-
-
-
-
+</div>
   );
 }
 
