@@ -1,6 +1,6 @@
 export default function Poze({}){
     return(
-        <div>
+        <>
             <div className="pozaJos">
                 <p>Pet Shop</p>
                 <img src="pozeJos/animale.jpg" id="inaltime"/>
@@ -25,6 +25,6 @@ export default function Poze({}){
                 <p>TV</p>
                 <img src="pozeJos/tv.jpg" id="inaltime" />
             </div>
-        </div>
+        </>
     )
 }
