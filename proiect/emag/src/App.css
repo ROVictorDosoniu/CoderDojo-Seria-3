@@ -77,6 +77,8 @@ li a{
 
 .pozaJos{
   border-radius: 5%;
-  border-color: black;
+  border: 0.5vh;
+  border-color: gray;
   border-style: groove;
+  border-inline-color: white;
 }
