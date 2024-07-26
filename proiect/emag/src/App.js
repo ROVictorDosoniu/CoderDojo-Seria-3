@@ -37,12 +37,17 @@ const NavList = () => {
 
 function App() {
   return (<>
+  return (
+<>
     <div className="App">
-       <div className="header">
+      <div className="header">
         <img src="emaglogo.png" />
         <input type="text" placeholder="începe o nouă căutare"></input>
       </div>
       <header>
+    </div>
+
+    <header>
         <nav>
           <NavList />
           <div id="help">
@@ -50,15 +55,13 @@ function App() {
           </div>
         </nav>
       </header>
-</div>
 
 
+      <div className='Jos'>
+        <Poze/>
+      </div>
+  </></>
+        );
+    }
 
-<div className="Jos">
-        <Poze />
-      </div></>
-  );
-}
-
-export default App;
-
+        export default App;
