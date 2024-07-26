@@ -98,5 +98,6 @@ li a{
 
 
 .pozaJos1{
-  background-image: element();
+  background-image:url("../public/pozeJos/animale.jpg");
+  height: 20vh;
 }

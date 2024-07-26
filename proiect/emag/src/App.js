@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 
 
-import Poze from './sinucid';
+import Poze from './pozeJos';
 
 const NavItem = ({ id, href, children }) => {
   return (
