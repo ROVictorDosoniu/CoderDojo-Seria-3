@@ -24,11 +24,12 @@
 
 #inaltime{
   height: 10vh;}
+
 .lists {
   display: flex;
   flex-direction: column;
   background-color: beige;
-  gap:5px
+  gap:5px;
   height: 10vh;
 }
 
