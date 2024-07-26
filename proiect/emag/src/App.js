@@ -36,6 +36,7 @@ const NavList = () => {
 };
 
 function App() {
+  return (<>
   return (
 <>
     <div className="App">
@@ -43,6 +44,7 @@ function App() {
         <img src="emaglogo.png" />
         <input type="text" placeholder="începe o nouă căutare"></input>
       </div>
+      <header>
     </div>
 
     <header>
@@ -58,7 +60,7 @@ function App() {
       <div className='Jos'>
         <Poze/>
       </div>
-  </>
+  </></>
         );
     }
 
