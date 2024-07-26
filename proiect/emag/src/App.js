@@ -10,7 +10,6 @@ function App() {
 
     </div>
 
-
       <div className="Jos">
         <Poze />
       </div>
