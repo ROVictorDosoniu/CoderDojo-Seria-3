@@ -57,25 +57,32 @@ li a{
 }
 
 #inaltime{
-  height: 10vh;}
+  height: 15vh;}
 
 .lists {
   display: flex;
   flex-direction: column;
   background-color: beige;
   gap:5px;
-  height: 10vh;
+  height: 20vh;
 }
 
 .Jos{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  
+  justify-content: space-around;
+  align-items: center;  
+
+  margin-top: 3vh;
 }
 
 .pozaJos{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+
   border-radius: 10%;
   border: 0.5vh;
   border-color: gray;
@@ -92,4 +99,16 @@ li a{
 .list{
   display: flex;
   flex-direction: column;
+
+  padding: 3vh;
+  height: 30vh;
+  width: 25vh;
+}
+
+#font{font-family: Ubuntu;}
+
+
+.pozaJos1{
+  background-image:url("../public/pozeJos/animale.jpg");
+  height: 20vh;
 }

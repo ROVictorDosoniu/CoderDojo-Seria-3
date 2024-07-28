@@ -84,6 +84,15 @@ const chesti = [
     text: "Jucarii, Copii & Bebe",
   },
 ];
+function App() {
+  return (
+<>
+    <div className="App">
+      <div className="header">
+        <img src="emaglogo.png" />
+        <input type="text" placeholder="începe o nouă căutare"></input>
+      </div>
+    </div>
 
 
 
@@ -99,7 +108,7 @@ function App() {
 
       <header>
         <nav>
-          <NavList />
+          <NavList/>
           <div id="help">
             <a id="Help" href="#help">
               Help
@@ -123,6 +132,8 @@ function App() {
       </div>
     </>
   );
+  </>
+        );
     }
 
 export default App;
