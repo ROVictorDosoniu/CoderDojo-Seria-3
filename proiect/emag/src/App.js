@@ -1,9 +1,8 @@
 
 import React from 'react';
 import './App.css';
-
-
 import Poze from './pozeJos';
+import Lista from './Lista';
 
 const NavItem = ({ id, href, children }) => {
   return (
@@ -35,33 +34,95 @@ const NavList = () => {
   );
 };
 
-function App() {
-  return (<>
-  return (
-<>
-    <div className="App">
-      <div className="header">
-        <img src="emaglogo.png" />
-        <input type="text" placeholder="începe o nouă căutare"></input>
-      </div>
-      <header>
-    </div>
+const chesti = [
+  {
+    imagine: "smartphone.png",
+    text: "Laptop, Tablete & Telefoane",
+  },
+  {
+    imagine: "mouse.png",
+    text: " PC, Periferice & Software",
+  },
+  {
+    imagine: "tv.png ",
+    text: " TV, Audio-Video & Foto",
+  },
+  {
+    imagine: "wash.png",
+    text: " Electrocasnice & Climatizare",
+  },
+  {
+    imagine: "ps4.png",
+    text: "Gaming, Carti & Birotica",
+  },
+  {
+    imagine: "bag.png",
+    text: " Bacanie",
+  },
+  {
+    imagine: "tricou.png",
+    text: "Fashion",
+  },
+  {
+    imagine: "mirror.png",
+    text: "Ingrijire personala & Cosmetice",
+  },
+  {
+    imagine: "canapea.png",
+    text: "Casa, Gradina & Bricolaj",
+  },
+  {
+    imagine: "ping.png",
+    text: "Sport & Travel",
+  },
+  {
+    imagine: "ca.png",
+    text: "Auto, Moto & RCA",
+  },
+  {
+    imagine: "bear.png",
+    text: "Jucarii, Copii & Bebe",
+  },
+];
 
-    <header>
+
+
+function App() {
+  return (
+    <>
+      <div className="App">
+        <div className="header">
+          <img src="emaglogo.png" />
+          <input type="text" placeholder="începe o nouă căutare"></input>
+        </div>
+      </div>
+
+      <header>
         <nav>
           <NavList />
           <div id="help">
-            <a id="Help" href="#help">Help</a>
+            <a id="Help" href="#help">
+              Help
+            </a>
           </div>
         </nav>
       </header>
 
-
-      <div className='Jos'>
-        <Poze/>
+     <div className='mijloc'>
+      <div className='list'>
+        <ul>
+          {chesti.map((obj)=> 
+          <Lista imagine={obj.imagine} text={obj.text}></Lista>
+          )}
+        </ul>
       </div>
-  </></>
-        );
+      <img src='emag.PNG' alt=""/>
+     </div>
+      <div className="Jos">
+        <Poze />
+      </div>
+    </>
+  );
     }
 
-        export default App;
+export default App;
