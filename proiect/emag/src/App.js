@@ -84,15 +84,7 @@ const chesti = [
     text: "Jucarii, Copii & Bebe",
   },
 ];
-function App() {
-  return (
-<>
-    <div className="App">
-      <div className="header">
-        <img src="emaglogo.png" />
-        <input type="text" placeholder="începe o nouă căutare"></input>
-      </div>
-    </div>
+
 
 
 
@@ -118,22 +110,22 @@ function App() {
       </header>
 
      <div className='mijloc'>
-      <div className='list'>
-        <ul>
+      
+        <ul className='list2'>
           {chesti.map((obj)=> 
-          <Lista imagine={obj.imagine} text={obj.text}></Lista>
+          <Lista imagine={obj.imagine} text={obj.text}/>
           )}
         </ul>
-      </div>
-      <img src='emag.PNG' alt=""/>
+      
+      <img src='emag.PNG' alt="" className='imaginePog' />
      </div>
       <div className="Jos">
         <Poze />
       </div>
     </>
   );
-  </>
-        );
+  
+        
     }
 
-export default App;
+export default App; 
